@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;    /*O tamanho da janela será a janela em si. Não haverá conteúdo para baixo. */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo,img{
+    width: 45%;
+}
+
+.menu{
+    padding-top: 55px;
+    width: 50%;
+    text-align: left;
+    margin-left: -300px;
+}
+
+.menu a{
+    color: rgb(102, 40, 112);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 60px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -150px;
+    right: -180px;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: plum;
+}
+
+.extras img{
+    width: 60%;
+}
+
+.bolsa{
+    margin-top: 10px;
+    margin-left: -700px;
+}
+
+.bolsa img{
+    width: 150px;
+    margin-top: -100px;
+}
+.tapete{
+    margin-top: -150px;
+    margin-left: -450px;
+}
+.tapete img{
+    width: 150px;
+    margin-top: -40px;
+}
+.poncho{
+    margin-top: -100px;
+    margin-left: -200px;
+}
+.poncho img{
+    width: 150px;
+    margin-top: -100px;
+}
+
+.social-media{
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+
+.social-media img{
+    display: block;
+    color: rgb(102, 40, 112);
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin-top: 150px;
+}
+
+.texto-sobre h1{
+    font-size: 40px;
+}
+
+.texto-sobre p{
+    margin: 10px 0;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre p2{
+    margin: 10px 0;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
